@@ -1,14 +1,14 @@
-import "@/App.css";
+import "./App.css";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import { Navigation } from "@/components/Navigation";
-import { Footer } from "@/components/Footer";
-import { Toaster } from "@/components/ui/sonner";
-import Home from "@/pages/Home";
-import Gallery from "@/pages/Gallery";
-import Equipment from "@/pages/Equipment";
-import RequestQuote from "@/pages/RequestQuote";
-import Contact from "@/pages/Contact";
-import Terms from "@/pages/Terms";
+import { Navigation } from "./components/Navigation";
+import { Footer } from "./components/Footer";
+import { Toaster } from "./components/ui/sonner";
+import Home from "./pages/Home";
+import Gallery from "./pages/Gallery";
+import Equipment from "./pages/Equipment";
+import RequestQuote from "./pages/RequestQuote";
+import Contact from "./pages/Contact";
+import Terms from "./pages/Terms";
 
 function App() {
   return (
